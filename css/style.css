@@ -595,9 +595,8 @@
   margin-top: 1.5em;
 }
 
-/* #credits{
-  color: white;
-} */
+/* credits content */
+
 .credit-grid {
   margin-top: 3em;
 }
@@ -640,8 +639,6 @@
   .credit-grid .credit-grid__grid-item ul {
     list-style-type: none;
     padding-left: 0;
-    -webkit-column-count: 1;
-            column-count: 1;
   }
   .credit-grid .credit-grid__grid-item ul li {
     font-family: Sans-serif;
