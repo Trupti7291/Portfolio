@@ -521,3 +521,80 @@
     background: var(--primary-bg-color);
     color: var(--secondary-color);
   }
+
+/* Case Study Page */
+
+.case-body {
+  background: var(--primary-bg-color);
+  color: var(--secondary-font-color);
+}
+.case-header {
+  position: sticky;
+  top: 0;
+  padding: 1.5em;
+  background: var(--primary-color);
+  border-bottom: 8px solid var(--primary-lighter);
+  text-align: left;
+  z-index: 1;
+}
+
+.case-header a:hover {
+  color: #e9959c;
+}
+
+.case-study {
+  padding: 2em;
+  text-align: left;
+}
+
+.case-study h1 {
+  padding: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.intro-content img {
+  height: 300px;
+  width: 500px;
+  box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  float: right;
+}
+
+.intro-content h2{
+  padding: 0.2em;
+}
+
+.back-end h2 {
+  text-align: right;
+  text-shadow: none;
+}
+
+.image-screenshot {
+  height: 200px;
+  width: 300px;
+}
+
+.back-end{
+  margin-top: 3em;
+  /* background: var(--primary-color); */
+  border-bottom: 8px solid var(--primary-lighter);
+  color: white;
+}
+
+.front-end{
+  margin-top: 3em;
+  /* background: var(--primary-color); */
+  border-bottom: 8px solid var(--primary-lighter);
+  color: white;
+}
+
+.challenges,
+.duration {
+  margin-top: 1.5em;
+}
+
+#credits{
+  color: white;
+}
