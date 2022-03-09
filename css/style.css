@@ -424,7 +424,7 @@
       opacity: 0.6;
     }
 
-    .case a {
+    .caseStudy a {
       margin-top: 0.7em;
       color: #be7d6d;
       opacity: 0.9;
@@ -432,7 +432,7 @@
       font-size: 14px;
       cursor: pointer;
     }
-    .case a:hover {
+    .caseStudy a:hover {
       color: #0e2f44;
     }
   
