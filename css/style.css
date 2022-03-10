@@ -548,9 +548,24 @@
 }
 
 .case-study h1 {
-  padding: 1.2em;
-  line-height: 1.2em;
+  display: -ms-grid;
+  width: 33%;
+  padding: 1.5em;
+  line-height: 2.5em;
   text-align: center;
+  width: 100%;
+    background-image: linear-gradient(to bottom, white, #c6a39a);
+    box-shadow: #0e2f44 0px 3px 9px ;
+    padding: 0 20px;
+    border-radius: 8px;
+    border-bottom: 2px solid #c6a39a;
+    color: var(--secondary-font-color);
+    font-family:Sans-serif;
+    text-transform: uppercase;
+    font-weight: 5000;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .intro-content img {
@@ -563,7 +578,7 @@
 }
 
 .intro-content h2{
-  padding: 0.2em;
+  padding: 0.9em;
 }
 
 .back-end h2 {
@@ -590,14 +605,40 @@
   color: white;
 }
 
-.challenges,
+/* .challenges,
 .duration {
   margin-top: 1.5em;
+  width: 35%;
+  text-align: center;
+}
+
+.duration{
+  float: right;
+} */
+
+.flex{
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 0;
+    top: 0;
+    padding: 0 0.5;
+    width: 80%;
+    text-align: center;
+    
+}
+.challenges {
+  padding-left: 90px;
+  padding-right: 50px;
+}
+.duration {
+  padding-left: 90px;
 }
 
 /* credits content */
 
 .credit-grid {
+  display: grid;
   margin-top: 3em;
 }
 .credit h3 {
