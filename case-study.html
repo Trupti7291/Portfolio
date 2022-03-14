@@ -31,7 +31,8 @@
         <h1>Case Study for myFlix full-stack project</h1>
         <div class="intro">
             <div class="intro-content">
-                <img src="../Portfolio/assets/movies list.png" alt="screenshot of myflix app" />
+                <img src="../Portfolio/assets/ListOfMovies.png" alt="screenshot of myflix app" />
+
                 <h2>Overview</h2>
                 <p>
                     <li> myFlix is a web application, a client-side application developed in React, based on its
@@ -55,33 +56,29 @@
                 </p>
             </div>
             <section class="back-end">
-                <div class="grid">
-                    <div class="grid__item">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                <h2>Back-end Programming</h2>
+                <div class="fbgrid">
+                    <div class="fbgrid__item">
+                        <div class="image-screenshot">
+                            <img src="../Portfolio/assets/Postman.png" alt="postman image"
+                                style="height: 300px; width: 460px;" />
+                        </div> <br>
                         <p>
-                            Back-end Programming
-
-                        </p>
-                        <br>
-                        <br>
-                        <br>
-                        <span class="fa-solid fa-hand-point-right"></span>
-                        </br>
-                        </br>
-                        <br>
+                            The API is tested in Postman and includes user authentication and authorization
+                            code,
+                            data validation logic. It meets data security regulations. The API is deployed to
+                            Heroku.
+                        </p> <br><br>
                         <div class="git">
                             <span class="fa-regular fa-hand-point-right"></span>
                             <a class="fa-brands fa-git" href="https://github.com/Trupti7291/movie_Api"></a>
                             <span class="fa-regular fa-hand-point-left"> </span>
                         </div>
                     </div>
-                    <div class="grid">
-                        <div class="grid__item">
+                    <div class="fbgrid">
+                        <div class="fbgrid__item">
                             <div class="image-screenshot">
-                                <img src="../Portfolio/assets/mongosh.png" alt="mongodb image">
+                                <img src="../Portfolio/assets/Mongosh.png" alt="mongodb image" style="height: 200px;" />
                             </div>
                             <p>
                                 The API is a Node.js and Express application and uses REST architecture, with URL
@@ -91,42 +88,24 @@
                                 modeled with Mongoose. The API provides movie information in JSON format.
                             </p>
                         </div>
-                        <div class="grid">
-                            <div class="grid__item">
-                                <div class="image-screenshot">
-                                    <img src="../Portfolio/assets/postman.png" alt="postman image">
-                                </div>
-                                <p>
-                                    The API is tested in Postman and includes user authentication and authorization
-                                    code,
-                                    data validation logic. It meets data security regulations. The API is deployed to
-                                    Heroku.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </section>
         </div>
+        </section>
 
         <section class="front-end">
-            <div class="grid">
-                <div class="grid__item">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
+            <h2> Fornt-end programming </h2>
+            <div class="fbgrid">
+                <div class="fbgrid__item">
                     <p>
-                        Front-end Programming
-
+                    <div class="image-screenshot">
+                        <img src="../Portfolio/assets/Screenshot 2022-03-14 at 09.42.04.png" alt="signup-form image" />
+                    </div>
+                    <br><br>
+                    <p>
+                        Allows users to register (username, password, email, birthday) and log in with a
+                        username and password.
                     </p>
-                    </br>
-                    </br>
-                    <span class="fa-solid fa-hand-point-right"></span>
-                    <br>
-                    <br>
-                    <br>
                     <div class="git">
                         <span class="fa-regular fa-hand-point-right"></span>
                         <a class="fa-brands fa-git" href="https://github.com/Trupti7291/myFlix-client"></a>
@@ -134,64 +113,76 @@
                     </div>
                 </div>
 
-                <div class="grid">
-                    <div class="grid__item">
+                <div class="fbgrid">
+                    <div class="fbgrid__item">
                         <div class="image-screenshot">
-                            <img src="../Portfolio/assets/movies list.png" alt="movieList image">
+                            <img src="../Portfolio/assets/User profile.png" alt="userProfile" />
                         </div>
+                        <br><br><br>
                         <p>
-                            The application consists of a list of all movies to the user. Users can select a movie
-                            for more details(descriptions, genre, director, images).
+                            User can update their user info (username, password, email, date of
+                            birth), remove a movie from their list of favorites, Allows existing users to
+                            deregister, Displays favorite movies.
                         </p>
+
                     </div>
-                    <div class="grid">
-                        <div class="grid__item">
+                    <div class="fbgrid">
+                        <div class="fbgrid__item">
                             <div class="image-screenshot">
-                                <img src="../Portfolio/assets/signup form.png" alt="signup-form image">
+                                <img src="../Portfolio/assets/ListOfMovies.png" alt="list of movie" />
                             </div>
                             <p>
-                                Allows users to register (username, password, email, birthday) and log in with a
-                                username and password and update their user info (username, password, email, date of
-                                birth) , to remove a movie from their list of favorites , Allows existing users to
-                                deregister , Displays favorite movies.
+                                The application consists of a list of all movies to the user.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="fbgrid">
+                        <div class="fbgrid__item">
+                            <div class="image-screenshot">
+                                <img src="../Portfolio/assets/single.png" alt="single movie" />
+                            </div>
+                            <p>
+                                Users can select a movie for more details(descriptions, genre, director, images).
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="flex">
-            <div class="challenges">
-                <h2>Challenges</h2>
-                <p>Challenges that I faced during building this application was to create a user profile, where users
-                    can update their profile like their info, favorite movies ,remove a movie from list of favorites or
-                    to deregister. To solve this challenge, First, I searched google and later sought help from
-                    StackOverflow however somehow I did not find the solution. Lastly, I approached my mentor to
-                    overcome this challenge
-                </p>
-            </div>
-            <div class="duration">
-                <h2>Duration</h2>
-                <p>To develop applications was a time-consuming task for the newbies' developers like me. It almost
-                    made me miss the deadline I made for myself for my progress as I scrolled numerous pages to learn
-                    more about how React (and React Redux) work.
-                    .</p>
-            </div>
+    </div>
+    <div class="flex">
+        <div class="challenges">
+            <h2>Challenges</h2>
+            <p>Challenges that I faced during building this application was to create a user profile, where users
+                can update their profile like their info, favorite movies ,remove a movie from list of favorites or
+                to deregister. To solve this challenge, First, I searched google and later sought help from
+                StackOverflow however somehow I did not find the solution. Lastly, I approached my mentor to
+                overcome this challenge
+            </p>
         </div>
-        <br>
-        <br>
-        <div class="credit-grid ">
-            <div class="credit-grid__grid-item">
-                <h4> Credits
-                    <!-- <span class="fa-solid fa-hands-praying"></span>  -->
-                </h4>
-                <ul>
-                    <li>Role: Developer</li>
-                    <li>Mentor: Bianca-Marinela Trif</li>
-                    <li>Tutor: Christopher Amanor</li>
-                </ul>
-            </div>
+        <div class="duration">
+            <h2>Duration</h2>
+            <p>To develop applications was a time-consuming task for the newbies' developers like me. It almost
+                made me miss the deadline I made for myself for my progress as I scrolled numerous pages to learn
+                more about how React (and React Redux) work.
+                .</p>
         </div>
+    </div>
+    <br>
+    <br>
+    <div class="credit-grid ">
+        <div class="credit-grid__grid-item">
+            <h4> Credits
+                <!-- <span class="fa-solid fa-hands-praying"></span>  -->
+            </h4>
+            <ul>
+                <li>Role: Developer</li>
+                <li>Mentor: Bianca-Marinela Trif</li>
+                <li>Tutor: Christopher Amanor</li>
+            </ul>
+        </div>
+    </div>
 
     </div>
 </body>
