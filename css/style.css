@@ -491,6 +491,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
+  }
+
+  .email a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .email a:hover{
+    color: #e9959c;
   }
   
   .mail-icon {
