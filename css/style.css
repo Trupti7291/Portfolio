@@ -613,6 +613,8 @@
   padding: 0.9em;
 }
 
+/* Front-back -end Programming */
+
 .back-end{
   margin-top: 20px;
   display: -ms-grid;
@@ -655,24 +657,18 @@
     padding-top: 10px;
 }
 
-/* back-front programming */
 @supports (display: grid) {
   .fbgrid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    /* as long as columns are specified, rows property defaults to auto */
-    /* columns 300px,300,300; fractions are better than pixels bc more resopnsive */
     grid-gap: 20px;
     margin: 20px;
   }
 
   .fbgrid__item {
-    /* position: relative; */
-    background-image: linear-gradient(to bottom, #104b7c, #3a5374);
-    box-shadow: 0px 3px 9px #c6a39a;
-    color: var(--white-color);
+    color: #104b7c;
     width: auto;
     min-height: auto;
     align-content: center;
@@ -690,56 +686,17 @@
 
   }
 
-  .git a {
-    color: #be7d6d;
-    opacity: 0.9;
-    text-decoration: none;
-    font-size: 24px;
-  }
-
-  .git a:hover {
-    color: #0e2f44;
-  }
-
-  .git span {
-    color: #be7d6d;
-    font-size: 16px;
-    opacity: 0.6;
-  }
-
   .fbgrid__item p {
     font-family:Sans-serif;
     margin-top: 90px;
+    margin-left: -30px;
     font-weight: 200;
     font-size: 18px;
-  }
-
-  .fbgrid__item a:hover {
-    box-shadow: var(--seafoam-color);
-  }
-
-  .image-screenshot img {
     text-align: center;
-    -webkit-box-shadow: 0px 3px 9px #0e2f44 ;
-            box-shadow: 0px 3px 9px #0e2f44 ;
-  }
-
-  .project-link {
-    font-family: Sans-serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 20px;
-    text-shadow: 1px 1.5px #e6e6d8 , 1.5px 2px #c6a39a;
-  }
-
-  .project-link a{
-    text-decoration: none;
+    width: 85%;
   }
 }
 
-section h1 {
-  text-align: center;
-}
 .back-end h2 {
   text-align: center;
   text-shadow: none;
@@ -749,6 +706,17 @@ section h1 {
 .image-screenshot {
   height: 200px;
   width: 300px;
+}
+
+.image-screenshot1{
+  height: 200px;
+  width: 300px;
+  margin-top: -95px;
+}
+
+.back-end img{
+  width: 400px;
+  height: 300px;
 }
 
 .back-end{
@@ -780,6 +748,23 @@ section h1 {
   width: 33%;
 }
 
+.git a {
+  color: #be7d6d;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.git a:hover {
+  color: #0e2f44;
+}
+
+.git span {
+  color: #be7d6d;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
 @supports (display: grid) {
   .flex-grid {
     display: -ms-grid;
@@ -787,6 +772,7 @@ section h1 {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    margin-top: 50px;
   }
   .flex-grid .flex-grid__grid-item {
     width: 100%;
